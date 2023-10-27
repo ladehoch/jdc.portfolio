@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+p {
+  font-family: "Agbalumo";
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: justify-all;
+  border: 5px double red;
+  width: 200px;
+  height: 100px;
+  padding-left: 50px;
+  margin: 20px;
+  overflow: auto;
+  background-color: yellowgreen;
+  box-shadow: 12px 12px 12px 4px orange;
+}

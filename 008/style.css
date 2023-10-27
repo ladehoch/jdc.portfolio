@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+p {
+  color: red;
+}
+
+body {
+  color: yellow;
+  font-size: 24px;
+}
+.odd-text {
+  color: yellow;
+  background-color: black;
+}
+#second-text {
+  color: blue;
+}
+div p {
+  text-decoration: underline;
+}
+
+div > strong {
+  border: solid red;
+}

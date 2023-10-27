@@ -3,83 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>정민의 포트폴리오</title>
+    <title>위니브의 포트폴리오</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <h1>
-        <a href="/"><img src="images/weniv-logo.png" alt="위니브 로고" /></a>
+        <a href="/"
+          ><img class="logo-img" src="images/weniv-logo.png" alt="위니브 로고"
+        /></a>
       </h1>
       <nav>
-        <ul>
-          <li></li>
-          <a href="home"></a>
-          <li></li>
-          <a href=""></a>
-          <li></li>
-          <a href=""></a>
-          <li></li>
-          <a href=""></a>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#activity">Activity</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="home"></section>
-      <h2>
-        안녕하세요
-        <div class="br"></div>
-        <strong>프론트앤드 개발자 라이캣입니다.</strong>
-      </h2>
-      <img src="images/Lycat.png" alt="인사하는 라이캣" />
-      <a href="#about"
-        ><img src="images/down.svg" alt="about 섹션으로 스크롤 이동"
-      /></a>
-      <section id="about"></section>
-      <h2>about</h2>
-      <p>
-        열정적이고 창의적인 프론트앤드개발자 라이캣입니다. 사용자 경험을
-        개선하고 웹 기술을 활용하여 혁신적인 솔루션을 찾는 것을 사랑하며, 뛰어난
-        프론트앤드 웹 애플리케이션을 구축하는 것을 목표로 합니다. Lorem ipsum
-        dolor, sit amet consectetur adipisicing elit. Eaque omnis cumque nemo
-        maiores enim, sint iusto delectus hic earum? Ipsum magnam dolorum ex
-        velit quibusdam corporis rem mollitia. Atque, ipsam!
-      </p>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quod
-        excepturi id architecto ipsum commodi voluptates voluptatem maiores
-        cupiditate fuga.
-      </p>
-      <section id="activity"></section>
-      <h2>activity</h2>
-      <ul>
-        <li>
-          <strong>프로젝트명1</strong>
-          <p>프로젝트에 대한 간략한 설명</p>
-        </li>
-        <li>
-          <strong>프로젝트명2</strong>
-          <p>프로젝트에 대한 간략한 설명</p>
-        </li>
-      </ul>
-      <ul>
-        <li><img src="images/wedream.png" alt="" />위드림</li>
-        <li><img src="images/workaction.png" alt="" />워케이션</li>
-        <li><img src="images/scholarship.png" alt="" />장학금</li>
-      </ul>
-
-      <section id="contact"></section>
-      <div>
-        <div>
-          <img src="images/mail.svg" alt="메일보내기" /><a
-            href="images/mobile.svg"
-          ></a
-          ><img src="" alt="" /><a href=""></a>
+      <section id="home">
+        <h2>
+          안녕하세요. <br /><strong>프론트앤드 개발자 라이캣입니다.</strong>
+        </h2>
+        <img class="lycat-img" src="images/Lycat.png" alt="인사하는 라이캣" />
+        <a href="#about"
+          ><img
+            class="down-link"
+            src="images/down.svg"
+            alt="about 섹션으로 스크롤 이동"
+        /></a>
+      </section>
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <p class="small">
+          열정적이고 창의적인 프론트앤드 개발자 라이캣입니다. 사용자 경험을
+          개선하고 웹 기술을 활용하여 혁신적인 솔루션을 찾는 것을 사랑하며,
+          뛰어난 프론트엔드 웹 애플리케이션을 구축하는 것을 목표로 합니다. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Id delectus earum
+          architecto velit modi fugiat ipsa expedita laborum labore accusantium
+          fuga rerum eius reprehenderit sit, ad voluptatibus? Pariatur, illo
+          iste.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+          cumque a blanditiis dolore hic repudiandae praesentium natus
+          reiciendis necessitatibus asperiores.
+        </p>
+      </section>
+      <section id="activity">
+        <h2 class="section-title">Activity</h2>
+        <ul class="text-list">
+          <li>
+            <strong>프로젝트명1</strong>
+            <p>프로젝트에 대한 간략한 설명</p>
+          </li>
+          <li>
+            <strong>프로젝트명2</strong>
+            <p>프로젝트에 대한 간략한 설명</p>
+          </li>
+        </ul>
+        <ul class="img-list">
+          <li><img src="images/wedream.png" alt="위드림" /></li>
+          <li><img src="images/workaction.png" alt="워케이션" /></li>
+          <li><img src="images/scholarship.png" alt="장학금" /></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <div class="content-box">
+          <div>
+            <h2 class="contact-title">Contact</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              voluptates consequuntur repudiandae rem quaerat dolorem aliquid.
+              Ex ab optio cupiditate!
+            </p>
+          </div>
+          <div class="contact-cont">
+            <div>
+              <img src="images/mail.svg" alt="메일보내기" /><a
+                href="mailto:skdud000322@naver.com"
+                >skdud000322@naver.com</a
+              >
+            </div>
+            <div>
+              <img src="images/mobile.svg" alt="전화걸기" /><a
+                href="tel:000-0000-0000"
+                >000-0000-0000</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
-      <small>copyright 2023. &copy; WENIV all rights reserves. </small>
+      <small>Copyright 2023. &copy; WENIV all rights reserves.</small>
     </footer>
-    <porter></porter>
   </body>
 </html>

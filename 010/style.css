@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+div {
+  border: 3px solid blue;
+  width: 200px;
+  margin: 200px auto;
+  text-align: left;
+  padding: 30px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px 30px;
+}
+.name {
+  font-size: 2rem;
+  color: darkslategrey;
+}
+
+.job {
+  background-color: chartreuse;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+p {
+  word-break: keep-all;
+  white-space: nowrap;
+}
